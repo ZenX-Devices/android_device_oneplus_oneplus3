@@ -155,7 +155,6 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(PLATFORM_PATH):libinit_oneplus3
-TARGET_RECOVERY_DEVICE_MODULES := libinit_oneplus3
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # Keystore
@@ -195,18 +194,12 @@ TARGET_RIL_VARIANT := caf
 TARGET_USES_OLD_MNC_FORMAT := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery/recovery.fstab
-BOARD_HAS_LARGE_FILESYSTEM := true
+TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery.fstab
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-# Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_op3
-TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
-
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
