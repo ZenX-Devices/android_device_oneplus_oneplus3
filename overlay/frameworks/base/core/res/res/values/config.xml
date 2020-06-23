@@ -501,6 +501,7 @@
     <!-- Smart Charing is available for OP3 -->
     <bool name="config_smartChargingAvailable">true</bool>
 
+<<<<<<< HEAD
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">false</bool>
 
@@ -524,4 +525,13 @@
     <!-- Whether to artificially interpret all signal strengths as one bar higher than they actually are -->
     <bool name="config_inflateSignalStrength">true</bool>
     
+=======
+    <!-- Whether or not we should show vendor mismatch message -->
+    <bool name="config_show_vendor_mismatch_message">false</bool>
+    <!-- Sets the package name for device parts-->
+    <string name="config_device_parts_package_name" translatable="false">com.asus.zenparts</string>
+    <string name="config_device_parts_package_activity" translatable="false">com.asus.zenparts.DeviceSettingsActivity</string>    
+
+    <dimen name="status_bar_height_portrait">94.0px</dimen>
+>>>>>>> c74f6b9a...  Fix padding for dual status bar
 </resources>
