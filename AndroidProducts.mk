@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_oneplus3.mk
+    $(LOCAL_DIR)/zenx_oneplus3.mk
