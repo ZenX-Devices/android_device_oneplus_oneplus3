@@ -241,5 +241,9 @@ persist.radio.volte.dan_support=true
 # Enable GL composition backpressure.
 debug.sf.enable_gl_backpressure=1
 
+# Sensors (OnePlus)
+ro.sensor.pickup=com.oneplus.sensor.pickup
+ro.sensor.pocket=com.oneplus.sensor.pocket
+
 #The End
 

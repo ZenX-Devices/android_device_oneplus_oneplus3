@@ -30,4 +30,7 @@
   <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
   <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 
+  <!-- Doze implementation -->
+  <string name="config_customDozePackage">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string> 
+
 </resources>
