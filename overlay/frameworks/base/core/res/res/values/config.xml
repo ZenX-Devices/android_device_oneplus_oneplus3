@@ -527,9 +527,23 @@
     <!-- Fix dual status bar padding issue -->
     <dimen name="status_bar_height_portrait">94.0px</dimen>
 
-    <!-- Set the automatic brightness mode on by default -->
-    <bool name="def_screen_brightness_automatic_mode">true</bool>
+    <!-- Flag indicating whether we should enable the automatic brightness.
+         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+<!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
+
+    <!-- Flag indicating whether we should enable smart battery. -->
+    <bool name="config_smart_battery_available">true</bool>
+
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">true</bool>
  
+     <!-- Whether to artificially interpret all signal strengths as
+         one bar higher than they actually are -->
+    <bool name="config_inflateSignalStrength">false</bool>
+    
     <!-- Sets the package name for device parts-->
     <string name="config_device_parts_package_name" translatable="false">com.oneplus.shit.settings</string>
     <string name="config_device_parts_package_activity" translatable="false">com.oneplus.shit.settings.ShitPanelActivity</string>

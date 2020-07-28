@@ -198,8 +198,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Snap \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service\
-    vendor.qti.hardware.camera.device@1.0
+    android.hardware.camera.provider@2.4-service
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -396,10 +395,6 @@ PRODUCT_COPY_FILES += \
 # Qualcomm
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect
-
-# Prebuilts
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
