@@ -501,7 +501,6 @@
     <!-- Smart Charing is available for OP3 -->
     <bool name="config_smartChargingAvailable">true</bool>
 
-<<<<<<< HEAD
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">false</bool>
 
@@ -530,4 +529,8 @@
 
     <!-- Set the automatic brightness mode on by default -->
     <bool name="def_screen_brightness_automatic_mode">true</bool>
+ 
+    <!-- Sets the package name for device parts-->
+    <string name="config_device_parts_package_name" translatable="false">com.oneplus.shit.settings</string>
+    <string name="config_device_parts_package_activity" translatable="false">com.oneplus.shit.settings.ShitPanelActivity</string>
 </resources>

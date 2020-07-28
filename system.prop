@@ -245,5 +245,8 @@ debug.sf.enable_gl_backpressure=1
 ro.sensor.pickup=com.oneplus.sensor.pickup
 ro.sensor.pocket=com.oneplus.sensor.pocket
 
+#dpi
+ro.sf.lcd_density=440
+
 #The End
 

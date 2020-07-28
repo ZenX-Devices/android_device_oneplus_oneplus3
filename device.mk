@@ -397,14 +397,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect
 
-<<<<<<< HEAD
-=======
 # Prebuilts
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
 # Public Libraries
->>>>>>> ba6afd4a... X00TD: add prebuilt Gcam Go
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
