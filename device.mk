@@ -194,9 +194,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service
+    android.hardware.camera.provider@2.4-service\
+    vendor.qti.hardware.camera.device@1.0
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -385,6 +385,10 @@ PRODUCT_PACKAGES += \
 # Perf
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    GoogleCamera
 
 # Power
 PRODUCT_PACKAGES += \
