@@ -539,12 +539,16 @@
 
     <!-- Indicates that connected MAC randomization is supported on this device -->
     <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">true</bool>
- 
-     <!-- Whether to artificially interpret all signal strengths as
-         one bar higher than they actually are -->
-    <bool name="config_inflateSignalStrength">false</bool>
-    
+        
     <!-- Sets the package name for device parts-->
     <string name="config_device_parts_package_name" translatable="false">com.oneplus.shit.settings</string>
     <string name="config_device_parts_package_activity" translatable="false">com.oneplus.shit.settings.ShitPanelActivity</string>
+    
+    <!-- Whether device has physical tri state switch -->
+    <bool name="config_hasAlertSlider">true</bool>
+    
+    <!-- Button brightness -->
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">128</integer>
+    
 </resources>
