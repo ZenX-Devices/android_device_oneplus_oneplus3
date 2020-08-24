@@ -365,7 +365,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
     
 #OnePlus Launcher
-$(call inherit-product, vendor/oplauncher/OPLauncher.mk)
+$(call inherit-product, vendor/oplauncher/OPLauncher2.mk)
 
 # OMX
 PRODUCT_PACKAGES += \
