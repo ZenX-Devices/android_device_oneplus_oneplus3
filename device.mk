@@ -259,7 +259,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    OneplusDoze
+    CustomDoze
 
 # DRM
 PRODUCT_PACKAGES += \
